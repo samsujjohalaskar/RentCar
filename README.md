@@ -1,6 +1,6 @@
 # RentCar
 
-Live link(https://rentcar.vercel.app).
+Live link: https://rentcarlive.vercel.app/
 
 ## Description
 
