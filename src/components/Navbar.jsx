@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='flex justify-center items-center p-3 bg-transparent font-audiowide'>
             <nav className='flex justify-between items-center w-full lg:mx-8 2xl:w-9/12'>
                 <div>
-                    <img src={logo} alt="CarWaale" className='w-36 lg:w-80' />
+                    <img src={logo} alt="CarWaale" className='w-52 lg:w-80' />
                 </div>
                 <div className='hidden list-none gap-4 md:flex xl:text-xl xl:gap-7'>
                     {["home", "collections", "testimonials", "book"].map((item, index) => (

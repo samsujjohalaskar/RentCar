@@ -6,7 +6,7 @@ import background from "../assets/background.png";
 const Hero = () => {
     return (
         <div className='flex justify-center items-center'>
-            <div className='mx-10 my-16 bg-cover bg-no-repeat xl:min-h-[52rem] xl:flex xl:justify-center xl:w-10/12 xl:m-8 xl:pl-8 xl:gap-16' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
+            <div className='mx-10 my-4 bg-cover bg-no-repeat sm:my-10 xl:min-h-[52rem] xl:flex xl:justify-center xl:w-10/12 xl:m-8 xl:pl-8 xl:gap-16' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
                 <div className='xl:pt-40'>
                     <div className='text-white text-5xl xl:text-6xl mb-8'>
                         Rent the luxury. Own the thrill.
