@@ -13,7 +13,7 @@ module.exports = {
         "to-color": "#4b6ca3",
         "via-color": "#85848cfa",
         "from-color": "#919194fa",
-        "input-bg": "rgb(236 233 233)",
+        "input-bg": "rgb(214 216 219)",
       },
     },
   },
