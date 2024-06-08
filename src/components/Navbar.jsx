@@ -15,7 +15,7 @@ const Navbar = () => {
                     </div>
                     <div className='hidden list-none gap-4 md:flex xl:text-xl xl:gap-7'>
                         {["home", "collections", "testimonials", "book"].map((item, index) => (
-                            <li className='cursor-pointer font-medium uppercase' key={index}>{item}</li>
+                            <li className='cursor-pointer font-medium uppercase hover:underline' key={index}>{item}</li>
                         ))}
                     </div>
                     <div className='hidden md:flex gap-4'>
@@ -30,13 +30,13 @@ const Navbar = () => {
             </div>
             {topBar &&
                 (
-                    <div className='px-6 pt-2'>
-                        <div className='list-none'>
+                    <div className='px-6 pt-8'>
+                        <div className='flex flex-col gap-4 list-none'>
                             {["home", "collections", "testimonials", "book"].map((item, index) => (
-                                <li className='cursor-pointer font-medium uppercase' key={index}>{item}</li>
+                                <li className='cursor-pointer font-medium uppercase hover:underline' key={index}>{item}</li>
                             ))}
                         </div>
-                        <div className='flex flex-wrap gap-4 py-4'>
+                        <div className='flex flex-wrap gap-6 py-6'>
                             <Button text={"Register"} width={"md:w-20 xl:w-32"} height={"md:h-8 xl:h-12"} initialState={"bg-black text-white"} hoverEffect={"hover:bg-white hover:text-black"} />
                             <Button text={"Log in"} width={"md:w-20 xl:w-32"} height={"md:h-8 xl:h-12"} initialState={"bg-white"} hoverEffect={"hover:bg-black hover:text-white"} />
                         </div>
