@@ -7,7 +7,7 @@ const Navbar = () => {
     const [topBar, showTopBar] = useState(false);
 
     return (
-        <div className={`${topBar ? "bg-input-bg w-full" : ""}`}>
+        <div className={`${topBar ? "absolute bg-input-bg w-full shadow-3xl" : ""}`}>
             <div className={'flex justify-center items-center p-3 pb-0 bg-transparent font-audiowide'}>
                 <nav className='flex justify-between items-center w-full lg:mx-8 2xl:w-9/12'>
                     <div>
