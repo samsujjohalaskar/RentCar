@@ -6,6 +6,7 @@ import Form from '../components/Form'
 import PlanTrip from '../components/PlanTrip'
 import PopularFleets from '../components/PopularFleets'
 import WhyUs from '../components/WhyUs'
+import Testimonials from '../components/Testimonials'
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <PlanTrip />
             <PopularFleets />
             <WhyUs />
+            <Testimonials />
         </div>
     )
 }
