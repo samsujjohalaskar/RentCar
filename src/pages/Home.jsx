@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Form from '../components/Form'
 import PlanTrip from '../components/PlanTrip'
 import PopularFleets from '../components/PopularFleets'
+import WhyUs from '../components/WhyUs'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Form />
             <PlanTrip />
             <PopularFleets />
+            <WhyUs />
         </div>
     )
 }
