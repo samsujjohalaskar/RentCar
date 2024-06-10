@@ -4,6 +4,7 @@ import "../style.css"
 import Hero from '../components/Hero'
 import Form from '../components/Form'
 import PlanTrip from '../components/PlanTrip'
+import PopularFleets from '../components/PopularFleets'
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Hero />
             <Form />
             <PlanTrip />
+            <PopularFleets />
         </div>
     )
 }
