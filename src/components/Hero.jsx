@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './Button';
 import punch from "../assets/punch.png";
 import background from "../assets/background.png";
+import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
@@ -15,12 +16,12 @@ const Hero = () => {
                         From exotic sports cars to luxury sedans and SUVs, the Exotic Car Collection by Exclusive Car Rental offers an exceptional selection and the trusted, personalized service of Enterprise.
                     </div>
                     <div className='flex gap-4 flex-wrap'>
-                        <div>
+                        <Link to="book" spy={true} smooth={true} duration={500}>
                             <Button text={"Book ride"} width={"w-32"} height={"h-12"} initialState={"bg-black text-white"} hoverEffect={"hover:bg-white hover:text-black"} />
-                        </div>
-                        <div>
+                        </Link>
+                        <Link to="more" spy={true} smooth={true} duration={500}>
                             <Button text={"Learn more"} width={"w-32"} height={"h-12"} initialState={"bg-white"} hoverEffect={"hover:bg-black hover:text-white"} />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from "../assets/logo.png";
 import Button from './Button';
 import { VscChromeClose, VscMenu } from "react-icons/vsc";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [topBar, showTopBar] = useState(false);
@@ -30,7 +31,16 @@ const Navbar = () => {
                         </div>
                         <div className='hidden list-none gap-4 md:flex xl:text-xl xl:gap-7'>
                             {["home", "collections", "testimonials", "book"].map((item, index) => (
-                                <li className='cursor-pointer font-medium uppercase hover:underline' key={index}>{item}</li>
+                                <li className='cursor-pointer font-medium uppercase hover:underline' key={index}>
+                                    <Link
+                                        to={`${item}`}
+                                        spy={true}
+                                        smooth={true}
+                                        duration={500}
+                                    >
+                                        {item}
+                                    </Link>
+                                </li>
                             ))}
                         </div>
                         <div className='hidden md:flex gap-4'>
@@ -48,7 +58,16 @@ const Navbar = () => {
                         <div className='px-6 pt-8'>
                             <div className='flex flex-col gap-4 list-none'>
                                 {["home", "collections", "testimonials", "contact", "book"].map((item, index) => (
-                                    <li className='cursor-pointer font-medium uppercase hover:underline' key={index}>{item}</li>
+                                    <li className='cursor-pointer font-medium uppercase hover:underline' key={index}>
+                                        <Link
+                                            to={`${item}`}
+                                            spy={true}
+                                            smooth={true}
+                                            duration={500}
+                                        >
+                                            {item}
+                                        </Link>
+                                    </li>
                                 ))}
                             </div>
                             <div className='flex flex-wrap gap-6 py-6'>
