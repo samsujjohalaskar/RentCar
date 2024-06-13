@@ -36,7 +36,7 @@ const Navbar = () => {
                                         to={`${item}`}
                                         spy={true}
                                         smooth={true}
-                                        duration={500}
+                                        duration={2000}
                                     >
                                         {item}
                                     </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
                                             to={`${item}`}
                                             spy={true}
                                             smooth={true}
-                                            duration={500}
+                                            duration={2000}
                                         >
                                             {item}
                                         </Link>

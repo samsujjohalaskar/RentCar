@@ -25,7 +25,7 @@ export const reviewData = [
     },
     {
         image: "https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/daenarys-1920.jpg",
-        name: "Daenerys Targaryen",
+        name: "T Daenerys",
         username: "@stormborn3",
         review: "From start to finish, my car rental experience was outstanding. The website was user-friendly, allowing me to quickly find the perfect car for my trip. On arrival, the staff was courteous and had my car ready without any delays. The vehicle itself was in pristine condition, both inside and out. I drove it for a week with no issues at all."
     },

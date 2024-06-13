@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/logo.png"
+import logo from "../assets/logoW.png"
 import { FaFacebook, FaXTwitter } from 'react-icons/fa6'
 import { TiSocialLinkedin, TiSocialYoutube } from 'react-icons/ti'
 
@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className='flex flex-wrap justify-around items-center w-full gap-10'>
                 <div className='w-52 lg:w-80 text-center'>
-                    <img src={logo} alt="RENTCAR" className='hidden w-52 lg:w-80 mb-2 sm:block' />
+                    <img src={logo} alt="RENTCAR" className='hidden w-52 lg:w-80 mb-4 sm:block' />
                     <p>We offer a wide range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
                     <p className='hidden sm:block mt-4 text-sm opacity-55'>©RentCar. All Rights Reserved</p>
                 </div>
@@ -21,7 +21,7 @@ const Footer = () => {
                         <li key={index}>{city}</li>
                     ))}
                 </div>
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-4' name="contact">
                     <p className='text-2xl'>Contact Us</p>
                     <p>+91 8241694128</p>
                     <p>rentcarlive@gmail.com</p>

@@ -16,10 +16,10 @@ const Hero = () => {
                         From exotic sports cars to luxury sedans and SUVs, the Exotic Car Collection by Exclusive Car Rental offers an exceptional selection and the trusted, personalized service of Enterprise.
                     </div>
                     <div className='flex gap-4 flex-wrap'>
-                        <Link to="book" spy={true} smooth={true} duration={500}>
+                        <Link to="book" spy={true} smooth={true} duration={2000}>
                             <Button text={"Book ride"} width={"w-32"} height={"h-12"} initialState={"bg-black text-white"} hoverEffect={"hover:bg-white hover:text-black"} />
                         </Link>
-                        <Link to="more" spy={true} smooth={true} duration={500}>
+                        <Link to="more" spy={true} smooth={true} duration={2000}>
                             <Button text={"Learn more"} width={"w-32"} height={"h-12"} initialState={"bg-white"} hoverEffect={"hover:bg-black hover:text-white"} />
                         </Link>
                     </div>
