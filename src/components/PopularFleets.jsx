@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Heading from './Heading'
 import { carData } from '../utils/carData';
 import Button from './Button';
-import punch from "../assets/punch.png"
 import CarDetails from './CarDetails';
 
 const PopularFleets = () => {
@@ -39,7 +38,7 @@ const PopularFleets = () => {
                         ))}
                     </div>
                     <div className={`flex justify-center items-center max-w-[30rem]`}>
-                        <img className='w-full' src={punch} alt={selectedCar && selectedCar.carName} />
+                        <img className='w-full' src={selectedCar && selectedCar.carImage} alt={selectedCar && selectedCar.carName} />
                     </div>
                     {selectedCar && <CarDetails selectedCar={selectedCar} />}
                 </div>

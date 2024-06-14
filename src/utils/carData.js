@@ -2,7 +2,7 @@ export const carData = {
   hatchback: [
     {
       carName: "Maruti Suzuki Swift",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380132/swift__1_-removebg-preview_xyhxu3.png",
       rentalPrice: "80",
       model: "Swift",
       mark: "Maruti Suzuki",
@@ -14,7 +14,7 @@ export const carData = {
     },
     {
       carName: "Hyundai i20",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380128/hyundai__1_-removebg-preview_gfrnhq.png",
       rentalPrice: "90",
       model: "i20",
       mark: "Hyundai",
@@ -26,7 +26,7 @@ export const carData = {
     },
     {
       carName: "Tata Altroz",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718382449/resize-1718382271990450654altroz1-removebg-preview_htvcgl.png",
       rentalPrice: "85",
       model: "Altroz",
       mark: "Tata",
@@ -38,7 +38,7 @@ export const carData = {
     },
     {
       carName: "Maruti Suzuki Baleno",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380130/baleno__1_-removebg-preview_jutboc.png",
       rentalPrice: "90",
       model: "Baleno",
       mark: "Maruti Suzuki",
@@ -50,7 +50,7 @@ export const carData = {
     },
     {
       carName: "Hyundai Grand i10 Nios",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380133/nios__1_-removebg-preview_wbk8dq.png",
       rentalPrice: "80",
       model: "Grand i10 Nios",
       mark: "Hyundai",
@@ -62,7 +62,7 @@ export const carData = {
     },
     {
       carName: "Honda Jazz",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718382122/4ba4bsa_1460581-removebg-preview_sdu0ah.png",
       rentalPrice: "95",
       model: "Jazz",
       mark: "Honda",
@@ -74,7 +74,7 @@ export const carData = {
     },
     {
       carName: "Volkswagen Polo",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380134/polo__1_-removebg-preview_w7bcxm.png",
       rentalPrice: "100",
       model: "Polo",
       mark: "Volkswagen",
@@ -86,7 +86,7 @@ export const carData = {
     },
     {
       carName: "Ford Figo",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380127/ford-figo__1_-removebg-preview_uonei3.png",
       rentalPrice: "85",
       model: "Figo",
       mark: "Ford",
@@ -98,7 +98,7 @@ export const carData = {
     },
     {
       carName: "Renault Kwid",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380131/Kwid__1_-removebg-preview_g3vkwv.png",
       rentalPrice: "70",
       model: "Kwid",
       mark: "Renault",
@@ -110,7 +110,7 @@ export const carData = {
     },
     {
       carName: "Tata Tiago",
-      carImage: "{link}",
+      carImage: "https://res.cloudinary.com/dxg1tfxsb/image/upload/v1718380134/tiago__1_-removebg-preview_llx0qu.png",
       rentalPrice: "80",
       model: "Tiago",
       mark: "Tata",
