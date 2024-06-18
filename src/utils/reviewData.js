@@ -6,9 +6,9 @@ export const reviewData = [
         review: "I had an amazing experience with this car rental service! The booking process was seamless. The staff was incredibly friendly and helpful. I will definitely use this service again!"
     },
     {
-        image: "https://pyxis.nymag.com/v1/imgs/921/a6c/02701db80f6372550a9bb07317d1987cd2-season-1.2x.rhorizontal.w700.jpg",
+        image: "https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/jamie-lannister-1920.jpg",
         name: "Jaime Lannister",
-        username: "@jaimelann",
+        username: "@kingslayer",
         review: "Renting a car has never been easier. From the moment I made the reservation to the drop-off, everything was smooth and hassle-free."
     },
     {

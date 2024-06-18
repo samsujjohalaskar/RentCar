@@ -4,6 +4,17 @@ import { FaFacebook, FaXTwitter } from 'react-icons/fa6'
 import { TiSocialLinkedin, TiSocialYoutube } from 'react-icons/ti'
 
 const Footer = () => {
+    const icons = [
+        { component: FaXTwitter, url: 'https://twitter.com/iamsamsujjoha' },
+        { component: TiSocialLinkedin, url: 'https://www.linkedin.com/in/samsujjohalaskar/' },
+        { component: TiSocialYoutube, url: 'https://youtube.com' },
+        { component: FaFacebook, url: 'https://facebook.com' }
+    ];
+
+    const handleClick = (url) => {
+        window.open(url, '_blank');
+    };
+
     return (
         <div className='flex flex-col justify-center items-center text-center bg-black text-white p-4 gap-4'>
             <div>
@@ -23,13 +34,19 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col gap-4' name="contact">
                     <p className='text-2xl'>Contact Us</p>
-                    <p>+91 8241694128</p>
-                    <p>rentcarlive@gmail.com</p>
+                    <p>+91 6290539395</p>
+                    <p>samsujjohalaskar@gmail.com</p>
                     <div className='flex justify-around text-2xl'>
-                        <FaXTwitter />
-                        <TiSocialLinkedin />
-                        <TiSocialYoutube />
-                        <FaFacebook />
+                        {icons.map((icon, index) => {
+                            const IconComponent = icon.component;
+                            return (
+                                <IconComponent
+                                    key={index}
+                                    onClick={() => handleClick(icon.url)}
+                                    className='cursor-pointer'
+                                />
+                            );
+                        })}
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@ const CarDetails = ({ selectedCar }) => {
     return (
         <div className='flex flex-wrap p-4 justify-center items-center gap-2 max-w-[26rem]'>
             <div className="w-full">
-                <Data text={`Rental price from ${selectedCar.rentalPrice}₹ /per day`} width={"w-full"} />
+                <Data text={`Rental price from ${selectedCar.rentalPrice}₹ /per hour`} width={"w-full"} />
             </div>
             {details.map((detail, index) => (
                 <div key={index} className="flex gap-2 w-full">
